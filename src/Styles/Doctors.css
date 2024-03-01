@@ -1,0 +1,98 @@
+.doctor-section {
+    padding: 32px;
+    
+    text-align: center;
+    background-color: rgb(4, 4, 4);
+}
+.dt-title-content {
+    margin: 0 0 64px 0;
+}
+.dt-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+.dt-title > span {
+    position: relative;
+    color: aquamarine;
+}
+.dt-title span::before {
+    content: '';
+    position: absolute;
+    width: 64%;
+    height: 4px;
+    background-color: gold;
+    border-radius: 8px;
+    left: 0;
+    bottom: -12px;
+}
+.dt-description {
+    margin: 64px auto 0;
+    text-align: center;
+    color: wheat;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    letter-spacing: .8px;
+    line-height: 1.8rem;
+}
+/* Doctor Cards */
+.dt-cards-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.dt-card {
+    width: 332px;
+    height: 400px;
+    gap: 32px;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+}
+.dt-card-img {
+    width: 100%;
+    height: 275px;
+    padding: 16px 32px 0;
+    background-position: center;
+    background-color:black;
+    border-radius: 20px;
+}
+.dt-card-name {
+    margin: 12px 0 0 0;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: .7px;
+    color: turquoise;
+}
+.dt-card-title {
+    margin: 6px 0 8px;
+    color: gold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: .7px;
+}
+.dt-card-stars {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .7px;
+    color: beige;
+}
+.dt-card-reviews {
+    color: turquoise;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+/* Responsive */
+@media screen and (max-width: 700px) {
+    .dt-title {
+        font-size: 32px;
+    }
+    .dt-description {
+       
+        font-size: 18px;
+    }
+}
